@@ -364,6 +364,39 @@ body{
       text-decoration: line-through;
 }
 
+.discount_up_down{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.discount_up_icons{
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-align: center;
+}
+
+.discount_up_icons i{
+      padding-top: 21px;
+      width: 46px;
+      height: 46px;
+      background-color: #F5F5F5;
+      text-align: center;
+      border-radius: 50%;
+      cursor: pointer;
+      animation-name: arrow;
+      animation-duration: 2s;
+      transition: .3s;
+}
+
+.icons_1:hover{
+      transform: translate(-11px);
+}
+
+.icons_2:hover{
+      transform: translate(11px);
+}
 
 .discount_btn{
       padding: 16px 48px;
@@ -384,16 +417,24 @@ body{
       border-radius: 4px;
       align-items: center;
       padding: 25px 56px;
+      text-align: center;
+}
+
+.categories_card_1:hover{
+      background-color: #DB4444;
+      color: #fff;
 }
 
 .categories_card_h{
       font-size: 16px;
       font-weight: 400;
+      text-align: center;
 }
 
 .active_card{
       background: #DB4444;
       color: #fff;
+      text-align: center;
 }
 
 .categories_down{
@@ -403,6 +444,7 @@ body{
       align-items: center;
       justify-content: center;
       margin: 0 auto;
+      text-align: center;
 }
 
 .categories_card_1:hover{
