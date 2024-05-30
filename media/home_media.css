@@ -55,6 +55,13 @@
       }
 }
 
+@media (max-width: 1030px){
+      .featured_down{
+            flex-direction: column;
+            align-items: center;
+      }
+}
+
 @media (max-width: 1005px){
       .exp_img{
             width: 500px;
@@ -75,6 +82,12 @@
 @media (max-width: 930px) {
       .top_a {
             margin-right: 100px;
+      }
+}
+
+@media (max-width: 925px){
+      .services_cards{
+            flex-direction: column;
       }
 }
 
@@ -189,6 +202,21 @@
       .things_right_img2 {
             display: none;
       }
+      .featured_card1{
+            width: 500px;
+            height: 530px;
+            padding-top: 380px;
+      }
+      .featured_card2{
+            width: 500px;
+            padding-top: 105px;
+            height: 214px;
+            margin: 0 auto;
+      }
+      .featured_cards2{
+            flex-direction: column;
+            align-items: center;
+      }
 }
 
 @media (max-width: 540px) {
@@ -200,6 +228,21 @@
 @media (max-width: 535px) {
       .discount_up_down{
             flex-direction: column;
+      }
+      .featured_card1{
+            width: 430px;
+            height: 460px;
+            padding-top: 300px;
+      }
+      .featured_card2{
+            width: 430px;
+            padding-top: 15px;
+            height: 190px;
+            margin: 0 auto;
+      }
+      .featured_cards2{
+            flex-direction: column;
+            align-items: center;
       }
 }
 
