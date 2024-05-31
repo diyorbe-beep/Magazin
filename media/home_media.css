@@ -33,6 +33,15 @@
             display: none;
       }
 
+      .footer_content{
+            display: none;
+      }
+
+      .footer{
+            height: 150px;
+      }
+
+
       .things_content {
             align-items: center;
       }
