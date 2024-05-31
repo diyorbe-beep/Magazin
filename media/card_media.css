@@ -1,0 +1,32 @@
+@media (max-width: 990px){
+      .card_content{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+      }
+}
+
+@media (max-width: 710px){
+      .card_big_img{
+            width: 400px;
+            height: 500px;
+      }
+      .card_big_img img{
+            width: 400px;
+            height: auto;
+      }
+      .card_imgs{
+            gap: 10px;
+      }
+}
+
+@media (max-width: 605px){
+      .card_imgs{
+            flex-direction: row;
+            grid-template-columns: auto auto;
+      }
+      .card_img_big_div{
+            flex-direction: column;
+      }
+}

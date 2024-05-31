@@ -17,7 +17,7 @@
 }
 
 .card_imgs {
-      display: flex;
+      display: grid;
       align-items: center;
       flex-direction: column;
       gap: 16px;
@@ -47,6 +47,12 @@
       align-items: center;
       justify-content: center;
       background-color: #F5F5F5;
+}
+
+.card_img_big_div{
+      display: flex;
+      align-items: center;
+      gap: 30px;
 }
 
 .card_right_h1{
