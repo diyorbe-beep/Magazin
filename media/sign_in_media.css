@@ -1,0 +1,16 @@
+@media (max-width: 1450px){
+      .sign_up_content{
+            gap: 100px;
+      }
+}
+
+@media (max-width: 1150px){
+      .sign_up_left{
+            display: none;
+      }
+      .sign_up_right{
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+      }
+}

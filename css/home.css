@@ -2,6 +2,7 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      text-decoration: none;
 }
 
 body{
@@ -293,6 +294,10 @@ html{
       font-size: 20px;
       margin-left: 17px;
       margin-right: 17px;
+}
+
+.nav_a1{
+      border-bottom: 1px solid #000;
 }
 
 
