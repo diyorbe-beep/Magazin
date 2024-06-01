@@ -1,0 +1,42 @@
+@media (max-width: 1170px) {
+      .about_card_content{
+            grid-template-columns: auto auto;
+      }
+      .workers_cards{
+      grid-template-columns: auto auto;
+      }
+      .our_story_content{
+            flex-direction: column;
+            gap: 5px;
+      }
+}
+
+@media (max-width: 700px) {
+      .story_right{
+            width: 650px;
+            height: 559px
+      }
+      .story_right img{
+            width: 450px;
+            height: auto;
+            margin-top: 20px;
+      }
+      .workers_cards{
+            grid-template-columns: auto;
+            align-items: center;
+            justify-content: center;
+      }
+}
+
+@media (max-width: 525px){
+      .about_card_content{
+            grid-template-columns:  auto;
+            align-items: center;
+            justify-content: center;
+      }
+      .workers_cards{
+            grid-template-columns: auto;
+            align-items: center;
+            justify-content: center;
+      }
+}
